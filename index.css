@@ -1,0 +1,169 @@
+*,::after,::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* background-image: url('./images/abc-removebg-preview.png'); */
+    background-color: rgba(241, 234, 241, 0.671);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.upper {
+    width: 100%;
+    height:auto;
+    background-color:rgb(74, 224, 224);
+    box-shadow: 0px 0px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-color: dodgerblue;
+    margin: 1px;
+    border-radius: 1px;
+}
+
+.upper .links ul {
+    display: flex;
+    padding: 30px 20px;
+    gap: 4em;
+}
+
+.button1 #getInTouch {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.button1 #getInTouch  {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(231, 122, 20);
+    margin: 20px;
+
+}
+
+.button1 #getInTouch:hover {
+    background-color: brown;
+    color: whitesmoke;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: rgb(30, 29, 29);
+}
+
+.links li a:hover {
+    color: brown;
+}
+
+.main1 {
+    margin: 15px;
+    padding: 30px 30px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+#button2 {
+    padding: 10px 10px;
+    margin: 10px 0px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#button2:hover {
+    background-color: brown;
+    color: whitesmoke;
+}
+
+p {
+    width: 80%;
+}
+
+img {
+    width: 30%;
+    height: 100%;
+    box-shadow: 0px 0px 3px 3px;
+}
+
+.main2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px;
+}
+
+.card p {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+span {
+    color: rgb(9, 240, 78);
+    font-family: monospace;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: contents;
+    justify-content: space-between;
+    padding: 30px 80px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer .links li {
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer .links li a {
+    color: white;
+}
+
+
+
